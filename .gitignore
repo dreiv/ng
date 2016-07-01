@@ -51,5 +51,5 @@ fabric.properties
 
 
 # Typescript generated application files:
-/app/*/*.js
-/app/*/*.js.map
+/app/**/*.js
+/app/**/*.js.map
