@@ -5,3 +5,8 @@ li {
 div.panel-heading {
    font-size: x-large; 
 }
+
+.product-image {
+    width:50px;
+    margin: 2px;
+}
