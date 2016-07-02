@@ -1,12 +1,14 @@
 import {Component, OnInit} from "angular2/core";
 import {IProduct} from "./product";
 import {ProductFilterPipe} from "./product-filter.pipe";
+import {StarComponent} from "../shared/star.component";
 
 @Component({
     selector: 'pm-products',
     templateUrl: 'app/products/product-list.component.html',
     styleUrls: ['app/products/products-list.component.css'],
-    pipes: [ProductFilterPipe]
+    pipes: [ProductFilterPipe],
+    directives: [StarComponent]
 })
 export class ProductListComponent implements OnInit {
     pageTitle: string = 'Product List';
@@ -71,5 +73,9 @@ export class ProductListComponent implements OnInit {
     ngOnInit():any {
         console.log("In OnInit!");
         return undefined;
+    }
+
+    onRatingClicked(message: string): void {
+        this.pageTitle = 'Product List:' + message;
     }
 }
