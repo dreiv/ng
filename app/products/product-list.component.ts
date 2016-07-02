@@ -3,6 +3,7 @@ import {IProduct} from "./product";
 import {ProductFilterPipe} from "./product-filter.pipe";
 import {StarComponent} from "../shared/star.component";
 import {ProductService} from "./product.service";
+import {error} from "util";
 
 @Component({
     selector: 'pm-products',
@@ -16,14 +17,20 @@ export class ProductListComponent implements OnInit {
     showImage: boolean = false;
     listFilter: string;
     products: IProduct[];
+    errorMessage: string;
 
     constructor(private _productService: ProductService) {}
 
     toggleImage(): void {
         this.showImage = !this.showImage;
     }
+
     ngOnInit():void {
-        this.products = this._productService.getProducts();
+        this._productService.getProducts()
+            .subscribe(
+                products => this.products = products,
+                error => this.errorMessage = <any> error
+            );
     }
 
     onRatingClicked(message: string): void {
