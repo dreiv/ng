@@ -9,4 +9,4 @@ To start the example you must have [**node**](https://nodejs.org/en/download/) i
     2.) npm start
 
 ## Known issues
-Due to the fact that Github pages uses a different file path system, I added in the index.html a bundle loader for both, and one fails :)
+Due to the fact that Github pages uses a different file path system, I added in the index.html a bundle loader for both paths, and one call fails :)
