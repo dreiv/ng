@@ -1,8 +1,0 @@
-machine:
-  node:
-    version: 7.0.0
-deployment:
-  production: # just a label; label names are completely up to you
-    branch: master
-    commands:
-      - ./deploy-to-production.sh
