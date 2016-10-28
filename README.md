@@ -1,4 +1,4 @@
-#Angular 2 Ahead-of-Time compilation example.
+#Angular 2 example.
 
 This is a simple application done in angular with webpack 2
 
