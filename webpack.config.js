@@ -6,10 +6,10 @@ module.exports = {
     },
     output: {
         path: root('dist'),
-        filename: '[name].bundle.js',
+        filename: '[name].bundle.js'
     },
     resolve: {
-        extensions: ['.ts', '.js', '.html'],
+        extensions: ['.ts', '.js', '.html']
     },
     module: {
         rules: [
@@ -18,7 +18,7 @@ module.exports = {
             {test: /\.ts/, loaders: ['awesome-typescript-loader', 'angular2-template-loader']}
         ]
     },
-    devtool: '#source-map',
+    devtool: '#source-map'
 };
 
 // Helpers
