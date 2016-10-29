@@ -1,8 +1,0 @@
-node_modules
-dist
-.idea/
-ng-webpack.iml
-
-yarn.lock
-
-npm-debug.log
