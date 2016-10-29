@@ -7,4 +7,5 @@ To start the example you must have [**node**](https://nodejs.org/en/download/) i
 
     1.) npm install
     2.) npm start
+    3.) access the app at: http://locallhost:1337
 
