@@ -1,4 +1,5 @@
 #[**ng with webpack**](https://dreiv.github.io/ng-webpack/)
+[![devDependency Status](https://david-dm.org/dreiv/ng-webpack/dev-status.svg)](https://david-dm.org/dreiv/ng-webpack?type=dev)
 
 Demo application done in  [**angular**](https://angular.io/) and bundled with  [**webpack**](https://webpack.github.io/), as simple as possible.
 
