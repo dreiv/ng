@@ -1,8 +1,6 @@
 node_modules
 dist
 .idea/
-ng-webpack.iml
-
-yarn.lock
+*.iml
 
 npm-debug.log
