@@ -13,8 +13,7 @@ module.exports = {
     },
     module: {
         rules: [
-            {test: /\.html$/, loader: 'raw'},
-            {test: /\.css$/, loader: 'raw'},
+            {test: /\.(html|css)$/, loader: 'raw'},
             {test: /\.ts/, loaders: ['awesome-typescript-loader', 'angular2-template-loader']}
         ]
     },

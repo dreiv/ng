@@ -1,4 +1,8 @@
 node_modules
 dist
-**/.idea/workspace.xml
-**/.idea/tasks.xml
+.idea/
+ng-webpack.iml
+
+yarn.lock
+
+npm-debug.log

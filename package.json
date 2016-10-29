@@ -1,5 +1,5 @@
 {
-  "name": "ng",
+  "name": "ng-webpack",
   "description": "simple angular 2 application builded with webpack",
   "scripts": {
     "build": "rimraf dist && webpack --config webpack.config.js",
@@ -16,7 +16,6 @@
     "zone.js": "0.6.26"
   },
   "devDependencies": {
-    "@types/node": "^6.0.45",
     "angular2-template-loader": "^0.5.0",
     "awesome-typescript-loader": "^2.2.4",
     "raw-loader": "^0.5.1",
