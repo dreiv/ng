@@ -1,4 +1,4 @@
-#Angular 2 example.
+#[**ng with webpack**](https://dreiv.github.io/ng-webpack/)
 
 Demo application done in angular and bundled with webpack, as simple as possible.
 
